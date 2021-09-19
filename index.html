@@ -4,12 +4,276 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Travel</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <section class="hero">
+    <header class="site-header">
+      <div class="container">
+        <div class="row align-center between">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="logo-img" width="174" height="45">
+          </a>
+          <nav class="nav-bar">
+            <ul class="row align-center between nav-list">
+              <li class="nav-items"><a class="nav-link" href="#">Destination</a></li>
+              <li class="nav-items"><a class="nav-link" href="#">Offer</a></li>
+              <li class="nav-items"><a class="nav-link" href="#">Tour</a></li>
+              <li class="nav-items"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+          </nav>
+          <div class="row align-center between">
+            <a class="my-account row align-center" href="#"><i class='bx bx-user'></i>My Account</a>
+            <button class="search-btn"><i class='bx bx-search' ></i></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="plan">
+        <div class="hero-text-box">
+          <h2 class="hero-title">It’s Time To<br>Explore The World</h2>
+          <a class="hero-btn btn" href="#">Plan Your Trip</a>
+        </div>
+        <div class="discover-box">
+            <ul class="hero-list row align-center between">
+              <li class="hero-item">
+                <h4 class="discover-box-title">Destinations</h4>
+                <select>
+                  <option>Arab Egypt</option>
+                </select>
+              </li>
+              <li class="hero-item">
+                <h4 class="discover-box-title">Check In</h4>
+                <input class="date-input" type="date" value="2021-01-12" name="data">
+              </li>
+              <li class="hero-item">
+                <h4 class="discover-box-title">Price Range</h4>
+                <input class="dollar-input" type="text" value="$500 - $10,0000" name="dollar">
+              </li>
+              <li class="hero-item">
+                <a class="discover-now-btn btn" href="#">Discover Now</a>
+              </li>
+            </ul>
+        </div>
+        <div class="row align-center arrow-box">
+          <button><i class='bx bx-chevron-left' ></i></button>
+          <button><i class='bx bx-chevron-right' ></i></button>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+    <section class="services">
+      <div class="container">
+        <ul class="row align-center services-content-box between">
+          <li class="services-box">
+            <img class="services-img" src="img/services-img1.svg" alt="services-img" width="100" height="100">
+            <h2 class="services-title">Choose Destination</h2>
+            <p class="services-text">Lorem Ipsum is simply dummy<br>text of the printing setting</p>
+          </li>
+          <li class="services-box">
+            <img class="services-img" src="img/services-im2.svg" alt="services-img" width="100" height="100">
+            <h2 class="services-title">Explore The Place</h2>
+            <p class="services-text">Lorem Ipsum is simply dummy<br>text of the printing setting</p>
+          </li>
+          <li class="services-box">
+            <img class="services-img" src="img/services-img3.svg" alt="services-img" width="100" height="100">
+            <h2 class="services-title">Start Your Journey</h2>
+            <p class="services-text">Lorem Ipsum is simply dummy<br>text of the printing setting</p>
+          </li>
+          <li class="services-box">
+            <img class="services-img" src="img/services-img4.svg" alt="services-img" width="100" height="100">
+            <h2 class="services-title">Let’s Enjoy</h2>
+            <p class="services-text">Lorem Ipsum is simply dummy<br>text of the printing setting</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="world">
+      <div class="container">
+        <ul class="row align-center between world-contents-box">
+            <li class="world-item">
+              <h2 class="world-title">Top<span>Destinations</span><br>In The World</h2>
+              <p class="world-text">It is a long established fact that a reader will be the<br>distracted by the readable content of a page when<br>looking at its layout from it.</p>
+              <a class="discover-more-btn btn"  href="#">Discover More</a>
+            </li>
+            <li class="world-item">
+              <img src="img/cuba.png" alt="cuba-img" width="330" height="400">
+            </li>
+            <li class="world-item">
+              <img src="img/paris.png" alt="cuba-img" width="330" height="400">
+            </li>
+            <li class="world-item">
+              <img src="img/japan.png" alt="cuba-img" width="316" height="400">
+            </li>
+        </ul>
+      </div>
+    </section>
+    <section class="total">
+      <div class="container">
+        <div class="row align-center">
+          <div class="col-6">
+            <img src="img/total-img.svg" alt="total-img" width="770" height="833">
+          </div>
+          <div class="col-5">
+            <h2 class="total-title">We Offering In Total 793<br>Tours Out The World</h2>
+            <ul class="total-list">
+              <li class="total-item">
+                <h2 class="total-box-title">Best Travel Guide Always For Your Services</h2>
+                <p class="total-text">Travel has helped us to understandsa the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to understand the meaning of life</p>
+              </li>
+              <li class="total-item"><h2 class="total-box-title bottom">World Class Services Provide For You</h2></li>
+              <li class="total-item"><h2 class="total-box-title th">24/7 Strong Customer Support</h2></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="destination">
+      <div class="container">
+        <h2 class="destination-title">Choose Your Destination</h2>
+        <ul class="destination-img-list row align-center between">
+          <li class="destination-img-item">
+            <img class="destination-img img1" src="img/destination-img1.png" alt="destination-img" width="450" height="535">
+            <div class="santorini">
+              <div class="row align-center between">
+                <div>
+                  <h2 class="santorini-title">Santorini, Oia Greece</h2>
+                  <div class="row align-center between santorini-contents-box">
+                    <span class="count">$2000</span>
+                    <ul class="row align-center santorini-item">
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><p>5k Reviews</p></li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="add-btn btn">+</button>
+              </div>
+            </div>
+          </li>
+          <li class="destination-img-item">
+            <img class="destination-img" src="img/destination-img2.png" alt="destination-img" width="450" height="535">
+            <div class="santorini">
+              <div class="row align-center between">
+                <div>
+                  <h2 class="santorini-title">Santorini, Oia Greece</h2>
+                  <div class="row align-center between santorini-contents-box">
+                    <span class="count">$2000</span>
+                    <ul class="row align-center santorini-item">
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><p>5k Reviews</p></li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="add-btn btn">+</button>
+              </div>
+            </div>
+            <a class="all-places-btn btn" href="#">View All Places</a>
+          </li>
+          <li class="destination-img-item">
+            <img class="destination-img" src="img/destination-img3.png" alt="destination-img" width="450" height="535">
+            <div class="santorini">
+              <div class="row align-center between">
+                <div>
+                  <h2 class="santorini-title">Santorini, Oia Greece</h2>
+                  <div class="row align-center between santorini-contents-box">
+                    <span class="count">$2000</span>
+                    <ul class="row align-center santorini-item">
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><i class='bx bxs-star'></i></li>
+                      <li class="santorini-list"><p>5k Reviews</p></li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="add-btn btn">+</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="customers">
+      <div class="container">
+          <h2 class="customer-title">What Our Happy Customers<br>Say About Us</h2>
+          <div class="bg-img">
+            <div class="customer-box">
+              <div class="row align-center boy-img-box">
+                <img class="boy-img" src="img/boy.png" alt="boy-img" width="80" height="80">
+                <div>
+                  <h3 class="boy-name">Md Shamim Hossain</h3>
+                  <p class="designer">UI/UX Designer</p>
+                </div>
+              </div>
+              <p class="customer-text">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+              <ul class="row align-center round-box between">
+                <li><span class="round"></span></li>
+                <li><span class="round"></span></li>
+                <li><span class="round"></span></li>
+                <li><span class="round"></span></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="travel-apps">
+      <div class="container">
+        <div class="travel-apps-box">
+          <div class="row align-center between">
+            <div class="col-6">
+              <h2 class="travel-apps-title">Download Now Travel<br>Community Apps</h2>
+              <ul class="row align-center between download-box">
+                <li><img src="img/google-play.png" alt="google-play-img" width="203" height="60"></li>
+                <li><img src="img/app-store.png" alt="app-store-img" width="202" height="60"></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <img class="travel-apps-img" src="img/travel-apps.png" alt="travel-apps-img" width="745" height="515">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+          <div>
+            <a href="index.html"><img src="img/logo.svg" alt="footer-logo" width="231" height="60"></a>
+            <p class="footer-text">You can dream, create, design, and buildsa the most<br>wonderful place.</p>
+            <a class="contacts-link row align-center" href="#"><i class='bx bxs-phone-call'></i>+0123 456 987, +0123 456 987</a>
+            <a class="contacts-link row align-center" href="#"><img src="img/sms-icon.svg" alt="sms-icon" width="22" height="18">yourmailaddress@gmail.com</a>
+            <a class="contacts-link row align-center" href="#"><img src="img/gps.svg" alt="gps-img">www.yourwebsitename.com</a>
+          </div>
+          <ul>
+            <li><h2>Quick Links</h2></li>
+            <li><a href="#">- About Us</a> </li>
+            <li><a href="#">- Destinations</a> </li>
+            <li><a href="#">- Latest Blog</a> </li>
+            <li><a href="#">- Our Team</a> </li>
+            <li><a href="#">- Contact Us</a> </li>
+          </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
